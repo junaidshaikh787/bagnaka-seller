@@ -100,8 +100,8 @@ class SignInWidgetState extends State<SignInWidget> {
                       child: Row(
                         children: [
                           Container(width: Dimensions.iconSizeDefault, height: Dimensions.iconSizeDefault,
-                            decoration: BoxDecoration(color: authProvider.isActiveRememberMe ? 
-                            Theme.of(context).primaryColor : Theme.of(context).cardColor,
+                            decoration: BoxDecoration(color: authProvider.isActiveRememberMe ?
+                            const Color(0xFF98a1ab) : const Color(0xFF52575C),
                                 border: Border.all(color:  authProvider.isActiveRememberMe ?
                                 Theme.of(context).primaryColor : Theme.of(context).hintColor.withOpacity(.5)),
                                 borderRadius: BorderRadius.circular(3)),
